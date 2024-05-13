@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+    <div id="bbdimages">
+        <p>Team BBD</p>
+    <img src="IMG20240219091112.jpg" id="bbd1">
+    <img src="IMG-20230523-WA0001.jpg" id="bbd">
+    <img src="IMG_20231015_173039_200.jpg" id="bbd2">
+    </div>
+
+
+    <div id="weather-container">
+
+        <h2><b>CHECK WEATHER</b></h2>
+        <h3>By Muhammad</h3>
+        <h4>Team B.B.D</h4>
+
+        <input type="text" id="city" placeholder="Enter A City">
+        <button onclick="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="weather Icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forecast"></div>
+   
+
+<script src="weather.js"></script>
+    
+</body>
+
+</html>
